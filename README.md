@@ -1,37 +1,22 @@
-![CI](https://github.com/marvel-nccr/quantum-mobile/workflows/CI/badge.svg)
-![CI-build](https://github.com/marvel-nccr/quantum-mobile/workflows/CI-build/badge.svg)
-[![Docker](https://img.shields.io/docker/v/marvelnccr/quantum-mobile?label=DockerHub)](https://hub.docker.com/r/marvelnccr/quantum-mobile)
+# Siesta Mobile
 
-# Quantum Mobile
+## What is Siesta Mobile
 
-## What is Quantum Mobile
+*Siesta Mobile* is a Virtual Machine for Siesta Schools, heavely relying on the 
+[Quantum Mobile](https://quantum-mobile.readthedocs.io)
 
-*Quantum Mobile* is a Virtual Machine for computational materials science.
+It comes with [Siesta](https://gitlab.com/siesta-project/siesta) installed and few more 
+softwares:
 
-It comes with a collection of software packages for quantum
-mechanical calculations, including
-
-- [Quantum ESPRESSO](http://www.quantum-espresso.org/)
-- [Yambo](http://www.yambo-code.org/)
-- [fleur](http://www.flapw.de/)
-- [Siesta](https://gitlab.com/siesta-project/siesta)
-- [CP2K](https://www.cp2k.org)
+- [Abinit](http://www.abinit.org)
+- [AiiDA](http://www.aiida.net)
 - [Wannier90](http://www.wannier.org)
-- [BigDFT](http://www.bigdft.org)
 
-all of which are set up and ready to be used on their own or through the
-[AiiDA](http://www.aiida.net) python framework for automated workflows and
-provenance tracking.
-
-See the documentation for further details: <https://quantum-mobile.readthedocs.io>
-
-![A brief impression of the Quantum Mobile interface.](docs/_static/quantum_mobile.gif)
 
 ## Contact
 
-Please direct inquiries regarding Quantum Mobile to the [AiiDA mailinglist](http://www.aiida.net/mailing-list/)
+Please direct inquiries ebosoni@icmab.es
 
-For issues encountered during installation of the VM, see the [FAQ documentation]([docs/users/faq.md](https://quantum-mobile.readthedocs.io/en/latest/users/faq.html)).
 
 ## Acknowledgements
 

@@ -81,14 +81,8 @@
       qm_customizations_homepage: "https://quantum-mobile.readthedocs.io"
       qm_customizations_urls:
         Abinit: https://www.abinit.org
-        BigDFT: http://www.bigdft.org
-        CP2K: https://www.cp2k.org
-        Fleur: http://www.flapw.de/
-        NWChem: https://nwchemgit.github.io/
-        Quantum ESPRESSO: http://www.quantum-espresso.org/
         Siesta: https://gitlab.com/siesta-project/siesta
         Wannier90: http://www.wannier.org
-        Yambo: http://www.yambo-code.org/
 
   - role: marvel-nccr.editors
     tags: [editors]
@@ -98,33 +92,11 @@
   - role: marvel-nccr.slurm
     tags: [slurm]
 
-  - role: marvel-nccr.quantum_espresso
-    tags: [quantum_espresso]
-    vars:
-      quantum_espresso_data_folder: "{{ vm_data_folder }}"
-
-  - role: marvel-nccr.yambo
-    tags: [yambo]
-
-  - role: marvel-nccr.fleur
-    tags: [fleur]
-
-  - role: marvel-nccr.cp2k
-    tags: [cp2k]
-
   - role: marvel-nccr.wannier90
     tags: [wannier90]
 
   - role: marvel-nccr.wannier_tools
     tags: [wannier_tools]
-
-  - role: marvel-nccr.bigdft
-    tags: [bigdft]
-    vars:
-      bigdft_test_cpus: "{{ vm_cpus }}"
-
-  - role: marvel-nccr.nwchem
-    tags: [nwchem]
 
   - role: marvel-nccr.libxc  # this is used by abinit and siesta
     tags: [abinit, siesta]
@@ -164,16 +136,6 @@
       aiida_venv: "{{ aiida_venv_base }}/aiida"
       aiida_jupyter_venv: "{{ aiida_venv_base }}/jupyter"
       aiida_venv_constraints: "{{ vm_data_folder }}/aiida/constraints.txt"
-
-  - name: aiidalab
-    role: marvel-nccr.aiidalab
-    become: true
-    become_user: "{{ vm_user }}"
-    tags: [aiidalab]
-    vars:
-      aiidalab_aiida_venv: "{{ aiida_venv_base }}/aiida"
-      aiidalab_aiida_jupyter_venv: "{{ aiida_venv_base }}/jupyter"
-      aiidalab_aiida_venv_constraints: "{{ vm_data_folder }}/aiida/constraints.txt"
 
   post_tasks:
 

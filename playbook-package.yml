@@ -126,7 +126,7 @@
 
   - name: set output path for image
     set_fact:
-      image_path: "{{ local_dist_folder }}/quantum_mobile_{{ vm_version }}.ova"
+      image_path: "{{ local_dist_folder }}/siesta_mobile_{{ vm_version }}.ova"
     tags: [export, release]
 
   - name: Remove old image file

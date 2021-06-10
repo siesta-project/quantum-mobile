@@ -11,7 +11,7 @@ all:
   vars:
     # VM Metadata
     vm_name: "Siesta Mobile"
-    vm_version: "0.21.05.1"
+    vm_version: "0.2.0"
     vm_description: "A Virtual Machine for Siesta Schools, based on the Marvel Quantum Mobile"
     vm_url: "https://github.com/marvel-nccr/marvel-virtualmachine"
     vm_author: "MARVEL NCCR, MaX CoE, and the Siesta Group"
