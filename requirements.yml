@@ -28,5 +28,8 @@
   version: v1.1.4
 - src: marvel-nccr.wannier_tools
   version: v1.0.0
-- src: marvel-nccr.aiida
-  version: v4.2.0
+- src: https://github.com/siesta-project/ansible-role-aiida
+  version: SiestaSlimming
+  name: marvel-nccr.aiida
+  #- src: marvel-nccr.aiida
+  #version: v4.2.0
