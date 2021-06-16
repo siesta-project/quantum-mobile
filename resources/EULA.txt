@@ -1,4 +1,4 @@
-The Quantum Mobile Virtual Machine is distributed by the Swiss National Centre
+The Siesta Mobile Virtual Machine is distributed by the Swiss National Centre
 for Computational Design and Discovery of Novel Materials (NCCR MARVEL), the
 European Centre of Excellence for Materials Design at the Exascale (MaX CoE)
 and the SIESTA team.
