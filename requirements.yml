@@ -22,8 +22,12 @@
   version: v0.1.0
 - src: marvel-nccr.abinit
   version: v2.1.1
-- src: marvel-nccr.siesta
-  version: v2.2.1
+- name: marvel-nccr.siesta
+  src: https://github.com/siesta-project/ansible-role-siesta
+  version: school-2021
+- name: marvel-nccr.conda-codes
+  src: https://github.com/siesta-project/ansible-role-conda-codes
+  version: just-conda
 - src: marvel-nccr.wannier90
   version: v1.1.4
 - src: marvel-nccr.wannier_tools

@@ -20,3 +20,9 @@ _archive
 roles/marvel-nccr*
 roles/gantsign*
 roles/geerlingguy*
+
+# For as long as we do not use fixed tags, this is important to commit
+!roles/marvel-nccr.siesta
+!roles/marvel-nccr.aiida
+!roles/marvel-nccr.conda-codes
+

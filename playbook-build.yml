@@ -109,6 +109,9 @@
       siesta_build_cpus: "{{ vm_cpus }}"
       siesta_libxc_root: "{{ libxc_prefix }}"
 
+  - role: marvel-nccr.conda-codes
+    tags: [conda]
+    
   - role: marvel-nccr.abinit
     tags: [abinit]
     vars:
