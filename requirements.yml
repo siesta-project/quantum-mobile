@@ -6,14 +6,16 @@
   version: v0.1.0
 - src: marvel-nccr.add_user
   version: v0.2.1
-- src: marvel-nccr.simulationbase
-  version: v1.1.0
+- src: https://github.com/bosonie/ansible-role-simulationbase
+  name: marvel-nccr.simulationbase
+  version: change-keyserver
 - src: marvel-nccr.python
   version: v0.2.2
 - src: marvel-nccr.ubuntu_desktop
   version: v1.0.4
-- src: marvel-nccr.quantum_mobile_customizations
-  version: v1.1.1
+- src: https://github.com/bosonie/ansible-role-quantum-mobile-customizations
+  name: marvel-nccr.quantum_mobile_customizations
+  version: change-header-terminal
 - src: marvel-nccr.editors
   version: v1.0.2
 - src: marvel-nccr.slurm
