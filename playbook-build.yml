@@ -111,8 +111,8 @@
       siesta_repo: "gitlab.com/garalb/siesta"
       siesta_version: "school--MaX-1.3.0-1"
 
-  - role: marvel-nccr.conda-codes
-    tags: [conda]
+#  - role: marvel-nccr.conda-codes
+#    tags: [conda]
     
   - role: marvel-nccr.abinit
     tags: [abinit]
