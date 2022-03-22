@@ -6,9 +6,9 @@
   version: v0.1.0
 - src: marvel-nccr.add_user
   version: v0.2.1
-- src: https://github.com/bosonie/ansible-role-simulationbase
+- src: https://github.com/marvel-nccr/ansible-role-simulationbase
   name: marvel-nccr.simulationbase
-  version: change-keyserver
+  version: master
 - src: marvel-nccr.python
   version: v0.2.2
 - src: marvel-nccr.ubuntu_desktop
